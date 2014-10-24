@@ -1,0 +1,150 @@
+*{margin:0px; padding:0px;}
+body{background:url(images/background_layout.jpg); width:1017px; margin:0px auto; padding:5px 0px 40px 0px; color:#D7D5D6; border:0px solid; border-radius:5px;}
+h1, h2, h3, h4, h5, h6{text-decoration:none; font-weight:normal;margin-bottom:15px;}
+.fix{overflow:hidden;}
+.floatleft{float:left;}
+.floatright{float:right;}
+
+.container {
+	max-width: 940px;
+	min-width: 400px;
+}
+.header {}
+.logo {
+	float: left;
+	margin-top: 40px;
+}
+.social {
+	float: right;
+	margin-top:70px;
+}
+.social img {
+	margin-top: 10px;
+}
+.social ul {}
+.social ul li{
+	display: inline-block;
+	padding-right:60px;
+}
+.social ul li a {
+	list-style: none;
+	margin:10px;
+	color: #ddd;
+	position: absolute;
+}
+.social ul li a:hover {}
+.slider {
+	border-radius: 10px 10px 0 0;
+	margin-top: 10px;
+	background-image: url(images/slider.jpg);
+	background-repeat: no-repeat;
+	height: 349px;
+}
+.text {
+	margin-top: 80px;
+}
+.text h2 {
+	margin-left: 500px;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: #fff;
+}
+.text spam {
+	font-size: 22px;
+}
+.nav {
+	max-width: 940px;
+	min-width: 400px;
+	background: #0063B6;
+}
+.menu {
+}
+.menu ul {}
+.menu ul li {
+	display: inline-block;
+	border-right: 1px solid #1D6CAE;
+	padding: 10px 0;
+}
+.menu ul li a {
+	text-decoration: none;
+	list-style: none;
+	padding:35px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #fff;
+}
+.menu ul li a:hover {
+	background: #1D6CAE;
+	padding:35px;
+}
+.content {
+	max-width: 940px;
+	min-width: 400px;
+	background: #fff;
+}
+.about {
+	margin:20px 40px;
+}
+.image {
+	float: left;
+	margin-right: 10px;
+}
+.paragraph {
+	color: #999999;
+	text-align: justify;
+	font-family: sans-serif;
+	float: right;
+	max-width: 650px;
+}
+.paragraph h2 a {
+	color: #393937;
+	text-decoration:none;
+	border-bottom: 1px solid #999999;
+}
+.recent_work {
+	margin:0 20px 0 20px;
+}
+.recent_work h2 {
+	margin-left: 12px;
+	font-family: sans-serif;
+}
+.recent_work h2 a {
+	color: #393937;
+	text-decoration:none;
+	border-bottom: 1px solid #999999;
+}
+.recent_work table {
+	padding: 0;
+	margin: 0;
+}
+.recent_work table tr {
+	padding:20px 0px 20px 0px;
+}
+.recent_work table tr td {
+	padding: 10px;
+	width:230px;
+}
+.recent_work table tr td img {
+	width:200px;
+}
+.footer {
+	padding:10px; 
+	font-size:15px;
+	background-color:#303030; 
+	height:130px;
+	border-radius: 0 0 10px 10px;
+}
+.left {
+	width:410px; 
+	margin:25px 25px 20px 25px;
+	float: left;
+}
+.right{
+	float: right;
+	width:410px; 
+	margin:25px 25px 20px 25px;
+}
+.footer p{
+	text-align: justify;
+	color: #898989;
+}
